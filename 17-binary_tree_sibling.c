@@ -6,7 +6,7 @@
  * @tree: the binary tree
  * Return: nothing
 */
-binary_tree_t *binary_tree_sibling(const binary_tree_t *tree)
+binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
 
 	if (tree == NULL || tree->parent == NULL)
